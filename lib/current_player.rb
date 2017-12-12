@@ -4,8 +4,8 @@ def turn_count(board)
   board.each do |plays|
     if plays == "X" || plays == "O"
       counter += 1
-
     end
+    return counter
   end
 
 end
